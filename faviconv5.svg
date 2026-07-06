@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="faviconv5.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.0762165"
+     inkscape:cx="123.58108"
+     inkscape:cy="303.37761"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="115"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3" />
+  <g
+     clip-path="url(#clip0_2_2)"
+     id="g1">
+    <g
+       id="g2">
+      <g
+         id="g3"
+         transform="matrix(1.204007,0,0,1.204007,-51.001749,-51.00175)">
+        <path
+           d="M 267.42659,394.60214 V 105.39786 h 76.36097 v 224.95582 h 113.85243 v 64.24846 z"
+           style="display:none;fill:#2a7fff;stroke-width:0.972263"
+           id="path1"
+           sodipodi:nodetypes="ccccccc" />
+        <g
+           id="g4"
+           style="fill:#87aaff;fill-opacity:1"
+           transform="translate(59.785139)">
+          <path
+             d="m 42.36001,105.39786 v 289.20428 h 76.36098 v -215.5627 h 57.37435 v -73.64158 z"
+             style="fill:#87aaff;fill-opacity:1;stroke-width:0.972263"
+             id="path1-5"
+             sodipodi:nodetypes="ccccccc" />
+          <path
+             d="M 204.33438,394.60214 V 105.39786 h 76.36098 v 215.5627 h 57.37435 v 73.64158 z"
+             style="fill:#87aaff;fill-opacity:1;stroke-width:0.972263"
+             id="path1-5-8"
+             sodipodi:nodetypes="ccccccc" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0_2_2">
+      <rect
+         width="500"
+         height="500"
+         fill="white"
+         id="rect1" />
+    </clipPath>
+  </defs>
+</svg>

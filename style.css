@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(20, 20, 20, 1);
+    color: #f8f8f8;
+}
+
+.container {
+    width: 100%;
+    padding: 0 7em;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    /*max-width: 100vw;*/
+    width: 100%;
+    height: 1.2em;
+    padding: 1em 0;
+    box-sizing: content-box;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 2em;
+}
+
+.header a {
+    --nav-link-color: #aaaaaa;
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+.header a:hover {
+    color: #f8f8f8;
+}
+
+#nav-title {
+    color: #aaaaff;
+    margin-right: 2em;
+}
+
+#background {
+    position: absolute;
+    z-index: -1;
+    max-width: 100vw;
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    /*padding: 0 .6em;*/
+}
+
+#background div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#background-texture {
+    overflow: hidden;
+    /*line-height: 1ch;
+    word-spacing: 1ch;*/
+    word-break: break-all;
+    color: #1a1a1a;
+}
+
+#background-overlay {
+    bottom: 100vh;
+    backdrop-filter: blur(1.4px);
+    background-color: rgba(40, 40, 40, .3);
+}
+
+.title {
+    /*display: none;*/
+    height: 100vh;
+}
+
+.title .container {
+    position: absolute;
+    flex-direction: column;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+#header-placeholder {
+    position: sticky;
+    top: 0;
+    background: #1a1a1a;
+    /*background-color: rgba(26, 26, 26, .95);*/
+    background-image: url('background.png');
+    /*backdrop-filter: blur(20px);*/
+}
+
+.intro {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #b0b0b0;
+    margin-bottom: 2.5em;
+}
+
+.title h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 0 0 .1em 0;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    gap: 1em 5em;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    ali
+}
+
+.link-button {
+    flex-basis: 15em;
+    display: block;
+}
+
+.link-button {
+    --hover-ani-duration: .1s;
+    display: block;
+    padding: 1em 2em;
+    color: white;
+    background: rgb(1, 1, 1);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20em;
+    box-shadow: 0px 0px 1000px #303030;
+    transition: color var(--hover-ani-duration), background var(--hover-ani-duration);
+}
+
+.link-button:hover {
+    background: #aaaaff;
+    color: black;
+    transition: color var(--hover-ani-duration), background var(--hover-ani-duration);
+}
+
+.link-button:active {
+    background: white;
+    box-shadow: none;
+}
