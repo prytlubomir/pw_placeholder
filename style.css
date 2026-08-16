@@ -86,7 +86,6 @@ body {
 }
 
 .title {
-    /*display: none;*/
     height: 100vh;
 }
 
@@ -132,14 +131,10 @@ body {
 }
 
 .link-button {
-    flex-basis: 15em;
-    display: block;
-}
-
-.link-button {
     --hover-ani-duration: .1s;
     position: relative;
     display: block;
+    flex-basis: 15em;
     padding: 1em 2em;
     color: white;
     background: rgb(1, 1, 1);
@@ -170,4 +165,30 @@ body {
 .link-button:active {
     background: white;
     box-shadow: none;
+}
+
+
+@media screen and (max-width: 790px) {
+    .container{
+        padding: 0 1em;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        gap: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .link-button {
+        flex-basis: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .link-button {
+        flex-basis: 100%;
+    }
 }
