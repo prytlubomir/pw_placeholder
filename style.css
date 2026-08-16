@@ -57,7 +57,7 @@ body {
 
 #background {
     position: absolute;
-    z-index: -1;
+    z-index: -5;
     max-width: 100vw;
     width: 100%;
     height: 100vh;
@@ -93,6 +93,7 @@ body {
 .title .container {
     position: absolute;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .title h1 {
@@ -128,7 +129,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    ali
 }
 
 .link-button {
@@ -138,6 +138,7 @@ body {
 
 .link-button {
     --hover-ani-duration: .1s;
+    position: relative;
     display: block;
     padding: 1em 2em;
     color: white;
@@ -145,8 +146,19 @@ body {
     text-decoration: none;
     text-align: center;
     border-radius: 20em;
-    box-shadow: 0px 0px 1000px #303030;
     transition: color var(--hover-ani-duration), background var(--hover-ani-duration);
+}
+
+.link-button::before {
+    content: "";
+    position: absolute;
+    inset: -500px;
+    z-index: 100;
+    background: radial-gradient(
+        ellipse f00px 300px at center,
+        #aaaaaa -4000%,
+        transparent 100%
+    );
 }
 
 .link-button:hover {
