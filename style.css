@@ -152,10 +152,10 @@ body {
 .link-button::before {
     content: "";
     position: absolute;
+    pointer-events: none;
     inset: -500px;
-    z-index: 100;
     background: radial-gradient(
-        ellipse f00px 300px at center,
+        ellipse 400px 300px at center,
         #aaaaaa -4000%,
         transparent 100%
     );
