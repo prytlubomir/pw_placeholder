@@ -87,6 +87,7 @@ body {
 
 .title {
     height: 100vh;
+    max-height: 100vh;
 }
 
 .title .container {
