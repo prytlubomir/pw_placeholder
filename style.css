@@ -65,7 +65,7 @@ body {
     z-index: -5;
     max-width: 100vw;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #080808;
     /*padding: 0 .6em;*/
 }
@@ -73,7 +73,7 @@ body {
 #background div {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #background-texture {
@@ -85,7 +85,7 @@ body {
 }
 
 #background-overlay {
-    bottom: 100vh;
+    bottom: 100%;
     backdrop-filter: blur(1.4px);
     background-color: rgba(40, 40, 40, .3);
 }
