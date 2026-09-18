@@ -14,6 +14,13 @@ body {
     color: #f8f8f8;
 }
 
+::selection {
+    color: white;
+    background-color: #87a9ff;
+
+    text-shadow: #888 1px 1px 10px;
+}
+
 .container {
     width: 100%;
     padding: 0 7em;
